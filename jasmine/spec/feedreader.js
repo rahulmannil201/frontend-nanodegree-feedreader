@@ -131,7 +131,7 @@ $(function() {
 
          it('feed container contains atleast 1 entry after function is called', function (done) {
 
-            expect($('.feed .entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).not.toBe(0);
             done();
 
     });
